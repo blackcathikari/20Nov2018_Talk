@@ -1,0 +1,22 @@
+<!doctype>
+<html>
+<head>
+	<title>TinyMCE 4.x Inline Demo</title>
+	<script src="tinymce_v4/tinymce.min.js"></script>
+	<script src="tinymce_v4_init.js"></script>
+	<script>
+		const config = init({ 
+			selector: '#inline' ,
+			inline: true
+		});
+		tinymce.init(config);
+	</script>
+</head>
+<body>
+	<h1>TinyMCE 4.x Inline Demo</h1>
+
+	<br /> <br />
+
+	<div id="inline">Hello again</div>
+</body>
+</html>
