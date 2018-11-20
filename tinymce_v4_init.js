@@ -10,7 +10,7 @@ const init = (specifics) => {
 		],
 
 		toolbar: " bold italic underline strikethrough subscript superscript blockquote |save undo redo restoredraft|fontselect fontsizeselect styleselect formatselect|link unlink| alignleft aligncenter alignright alignnone alignjustify|hr nonbreaking outdent indent  |visualblocks visualchars| ltr rtl "+
-		"image media| numlist bullist | charmap | code codesample | forecolor backcolor emoticons | fullpage | fullscreen | anchor | insertdatetime  pagebreak template searchreplace toc tocupdate spellchecker help removeformat | cut copy paste | selectall remove ",
+		"image media| numlist bullist | charmap | code codesample | forecolor backcolor emoticons | fullpage | fullscreen | anchor | insertdatetime  pagebreak template searchreplace toc tocupdate spellchecker help removeformat | cut copy paste | remove ",
 		...specifics
 	};
 };
