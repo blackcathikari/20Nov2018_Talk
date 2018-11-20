@@ -1,6 +1,7 @@
 const init = (specifics) => {
 	return {
 		height: 300,
+		resize: 'both',
 		plugins: [
 		  '  wordcount advlist anchor autolink autosave charmap code codesample',
 		  'directionality emoticons fullpage fullscreen help hr image imagetools insertdatetime link lists media',

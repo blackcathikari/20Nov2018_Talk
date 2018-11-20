@@ -1,12 +1,13 @@
-<!doctype>
+<!doctype html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>TinyMCE 4.x Iframe Demo</title>
 	<script src="tinymce_v4/tinymce.min.js"></script>
 	<script src="tinymce_v4_init.js"></script>
 	<script>
-		const config = init({ 
-			selector: '#iframe' 
+		const config = init({
+			selector: '#iframe'
 		});
 		tinymce.init(config);
 	</script>
@@ -16,6 +17,6 @@
 
 	<br /> <br />
 
-	<div id="iframe">Hello world</div>
+	<div id="iframe"><p><span style="font-family: arial, helvetica, sans-serif;">Hello world</span></p></div>
 </body>
 </html>

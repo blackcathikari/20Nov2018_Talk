@@ -1,12 +1,16 @@
-<!doctype>
+<!doctype html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>TinyMCE 5.0 Iframe Demo</title>
-	<script src="tinymce_v5/tinymce.min.js"></script>
+	<script src="tinymce/tinymce.min.js"></script>
 	<script src="tinymce_v5_init.js"></script>
 	<script>
-		const config = init({ 
-			selector: '#iframe' 
+		const config = init({
+			selector: '#iframe',
+			setup: (ed) => {
+				makeSidebar(ed, 'sidebarBtn', '#1976d2', '200px');
+			},
 		});
 		tinymce.init(config);
 	</script>
@@ -16,6 +20,6 @@
 
 	<br /> <br />
 
-	<div id="iframe">Hello world</div>
+	<div id="iframe"><p><span style="font-family: arial, helvetica, sans-serif;">Hello world</span></p></div>
 </body>
 </html>
